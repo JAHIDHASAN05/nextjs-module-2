@@ -15,7 +15,7 @@ const Homepage = async () => {
   });
   const data = await res.json();
   // console.log(data, "jahid data");
-
+ throw new Error('Error form home page');
   return (
     <div className="">
       <h1 className="text-5xl text-center ">Next js to welcome 022212 </h1>
