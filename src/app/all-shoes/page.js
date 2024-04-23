@@ -1,26 +1,15 @@
-import Image from "next/image";
-
-export const metadata = {
-  title: "hoME pAGe",
-  description: "This is home page",
-};
+import React from "react";
 import Jahid from "next/link";
 
-const Homepage = async () => {
-  const res = await fetch("http://localhost:5000/shoes", {
-    cache: "force-cache",
-    next: {
-      revalidate: 5,
-    },
-  });
-  const data = await res.json();
-  // console.log(data, "jahid data");
+const AllShoes = async () => {
+  const res = await fetch("http://localhost:5000/shoes",{cache:'no-store'});
+  const shoesData = await res.json();
 
   return (
-    <div className="">
-      <h1 className="text-5xl text-center ">Next js to welcome 022212 </h1>
-      <div className="grid grid-cols-3 place-items-center mt-10 align-items-center ">
-        {data.slice(0, 9).map((shoe) => (
+    <div>
+      <h1 className="text-center font-bold text-5xl my-20">All Shoes</h1>
+      <div className="grid grid-cols-3 place-items-center">
+        {shoesData.map((shoe) => (
           <div key={shoe.id} className="card w-96 bg-base-100 shadow-xl mt-5">
             <figure>
               <img
@@ -42,10 +31,9 @@ const Homepage = async () => {
           </div>
         ))}
       </div>
-
-      <Jahid href={"all-shoes"}>
+      <Jahid href={"/"}>
         <div className="text-center">
-        <button className="btn btn-outline btn-primary ">All shoes</button>
+        <button className="btn btn-outline btn-primary ">Home</button>
 
         </div>
 
@@ -54,4 +42,4 @@ const Homepage = async () => {
   );
 };
 
-export default Homepage;
+export default AllShoes;

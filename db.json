@@ -4,7 +4,7 @@
       "title": "jahid Adidas Ultraboost",
       "id": "1",
       "description": "The Adidas Ultraboost is designed to provide maximum comfort and energy return for your runs. Featuring a Primeknit upper and Boost cushioning, these shoes will keep you comfortable mile after mile.",
-      "price": 18
+      "price": 1800564356
     },
     {
       "title": "Nike Air Max 270",
@@ -59,6 +59,67 @@
       "id": "10",
       "description": "The Reebok Nano X is designed for high-intensity workouts and training sessions. The Flexweave upper provides flexibility and support, while the cushioned midsole offers comfort and stability.",
       "price": 130
+    },
+    
+    {
+      "title": "Puma RS-X3",
+      "id": "11",
+      "description": "The Puma RS-X3 combines retro style with modern comfort. Featuring a bulky silhouette and cushioned midsole, these shoes offer all-day comfort and style.",
+      "price": 110
+    },
+    {
+      "title": "Vans Old Skool",
+      "id": "12",
+      "description": "The Vans Old Skool is a classic skate shoe known for its durability and iconic side stripe. With a padded collar and vulcanized construction, these shoes provide superior comfort and support.",
+      "price": 60
+    },
+    {
+      "title": "Converse Chuck Taylor All Star",
+      "id": "13",
+      "description": "The Converse Chuck Taylor All Star is a timeless classic that never goes out of style. With its canvas upper and iconic design, these shoes are perfect for everyday wear.",
+      "price": 55
+    },
+    {
+      "title": "Timberland 6-Inch Premium Waterproof Boots",
+      "id": "14",
+      "description": "The Timberland 6-Inch Premium Waterproof Boots are built to withstand the toughest conditions. Featuring a waterproof construction and durable rubber outsole, these boots will keep your feet dry and comfortable in any weather.",
+      "price": 190
+    },
+    {
+      "title": "Dr. Martens 1460 Smooth Leather Boots",
+      "id": "15",
+      "description": "The Dr. Martens 1460 Smooth Leather Boots are an iconic symbol of rebellious self-expression. With their durable construction and classic design, these boots are built to last.",
+      "price": 150
+    },
+    {
+      "title": "Salomon Speedcross 5",
+      "id": "16",
+      "description": "The Salomon Speedcross 5 is a lightweight and aggressive trail running shoe designed for maximum grip and stability on challenging terrain. The Contagrip outsole provides excellent traction, while the SensiFit system ensures a secure and comfortable fit.",
+      "price": 130
+    },
+    {
+      "title": "Merrell Moab 2 Waterproof Hiking Shoes",
+      "id": "17",
+      "description": "The Merrell Moab 2 Waterproof Hiking Shoes are perfect for outdoor adventures. Featuring a waterproof construction and Vibram outsole, these shoes provide excellent traction and support on any terrain.",
+      "price": 120
+    },
+    {
+      "title": "Keen Targhee III Waterproof Hiking Shoes",
+      "id": "18",
+      "description": "The Keen Targhee III Waterproof Hiking Shoes are built to handle the toughest trails. Featuring a waterproof membrane and durable outsole, these shoes provide excellent traction and stability on any terrain.",
+      "price": 140
+    },
+    {
+      "title": "Columbia Newton Ridge Plus II Waterproof Hiking Boots",
+      "id": "19",
+      "description": "The Columbia Newton Ridge Plus II Waterproof Hiking Boots are perfect for tackling tough trails. Featuring a waterproof construction and durable outsole, these boots provide excellent traction and support on any terrain.",
+      "price": 90
+    },
+    {
+      "title": "Adidas Terrex Swift R3 GTX",
+      "id": "20",
+      "description": "The Adidas Terrex Swift R3 GTX is a lightweight and waterproof hiking shoe designed for fast-paced adventures. The GORE-TEX membrane provides breathable waterproof protection, while the Continental Rubber outsole offers superior traction on wet and dry surfaces.",
+      "price": 160
     }
   ]
   
